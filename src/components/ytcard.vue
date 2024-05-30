@@ -2,15 +2,12 @@
         <div class="flex justify-center">
             <div class="rounded-lg shadow-lg bg-white max-w-sm">
                 <a href="#!">
-                    <!-- <video width="320" height="240" controls class="w-full rounded-t-lg"> -->
-    
                         <iframe width="385" height="240"
                             :src="link"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <!-- 
-                    </video> -->
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
                 </a>
                 <!-- 文字及按紐 -->
                 <div class="p-6">

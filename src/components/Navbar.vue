@@ -28,9 +28,6 @@
             <button @click="this.$router.push('/')">Home</button>
           </li>
           <li>
-            <button @click="this.$router.push('/About')">About</button>
-          </li>
-          <li>
             <button @click="this.$router.push('/Collection')">Collection</button>
           </li>
         </ul>

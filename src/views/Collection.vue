@@ -8,7 +8,7 @@
         </h3>
         <br>
     </div>
-    <div class="grid grid-cols-3 gap-5">
+    <div class="grid grid-cols-1 2xl:grid-cols-3 md:grid-cols-2 gap-5 sm:grid-cols-1">
         <div v-for="i in ytcardData" :key="i.link">
             <ytcard :link="i.link" :title="i.title" :Description="i.Description" />
         </div>
