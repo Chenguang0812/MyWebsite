@@ -13,9 +13,9 @@
                 <div class="p-6">
                     <h5 class="text-black text-xl mb-2">{{ title }}</h5>
                     <p class="text-black text-base mb-4">{{ Description }}</p>
-                    <button class=" inline-block px-6 py-2.5 bg-black text-white text-xs uppercase rounded">
-                        Button
-                    </button>
+                    <a class=" inline-block px-6 py-2.5 bg-black text-white text-xs uppercase rounded" :href="button">
+                        Go Video
+                    </a>
                 </div>
             </div>
         </div>

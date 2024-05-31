@@ -12,7 +12,7 @@
                     <p className="font-bold text-lg">{{theme}}</p>                   
                     <ul>
                         <li>· App【要吃什麼】 Founder</li>
-                        <li>· Premiere 4年經驗</li>
+                        <li>· Premiere 3年經驗</li>
                         <li>· 14歲踏入健身領域</li>
                         <li>· 15歲開始創業</li>
                         <li>· 15加入區塊鏈世界</li>
@@ -25,6 +25,7 @@
                         <li>· 剪輯後製</li>
                         <li>· 街頭攝影</li>
                         <li>· 加密貨幣</li>
+                        <li>· 區塊鏈</li>
                         <li>· 健身</li>
                     </ul>
                 </div>
@@ -34,7 +35,7 @@
                     <ul>
                         <li>· 名字：朱光昱</li>
                         <li>· 感情：單身</li>
-                        <li>· 職業：剪輯師</li>
+                        <li>· 職業：CEO、剪輯師</li>
                         <li>· 地區：地球</li>
                     </ul>
                 </div>
