@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto pt-8 pl-5 pr-5 dark:text-white transition-colors duration-100">
-    <div class="text-3xl font-bold">{{ title }}</div>
-    <p class="text-base no-underline leading-loose">一個15歲少年</p>
-    <p class="text-base no-underline">未來望可以成為企業家的一個人</p>
+    <div class="text-3xl text-black font-bold">{{ title }}</div>
+    <p class="text-base text-black no-underline leading-loose">一個15歲少年</p>
+    <p class="text-base text-black no-underline">未來望可以成為企業家的一個人</p>
     <!--框框-->
     <div v-for="i in FrameData" :key="i.title">
       <Frame :title="i.title" :theme="i.theme" :theme2="i.theme2" :theme3="i.theme3" :Introduction="i.Introduction" />
@@ -10,7 +10,7 @@
     <!--Timeline-->
     <br>
     <div class="home">
-      <h1 class="text-2xl font-bold text-center mb-6">我的時間軸</h1>
+      <h1 class="text-2xl font-bold text-black text-center mb-6">我的時間軸</h1>
       <Timeline 
         v-for="(item, index) in timelineItems" 
         :key="index"

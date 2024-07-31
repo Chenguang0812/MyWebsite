@@ -1,10 +1,10 @@
 <template>
     <div class="container mx-auto pt-8 pl-5 pr-5 dark:text-white transition-colors duration-100">
         <div class="text-center">
-            <h1 class="mb-5 text-3xl font-bold leading-tight md:text-5xl md:leading-tight">
+            <h1 class="mb-5 text-3xl font-bold leading-tight text-black md:text-5xl md:leading-tight">
                 剪輯作品集
             </h1>
-            <h3 class="mb-5 text-3xl  leading-tight md:text-xl md:leading-tight">
+            <h3 class="mb-5 text-3xl  leading-tight md:text-xl text-black md:leading-tight">
                 從事剪輯行業2年，對剪輯相當有熱枕，有著一定的創造力及想像力，<br />剪過遊戲類、生活類等影片，目前任職於RC Studio擔任剪輯師。
             </h3>
             <br>
