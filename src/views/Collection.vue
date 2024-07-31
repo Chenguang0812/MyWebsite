@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto pt-8 pl-5 pr-5 text-black dark:text-white transition-colors duration-100">
-        <div class="text-black text-center">
+    <div class="container mx-auto pt-8 pl-5 pr-5 dark:text-white transition-colors duration-100">
+        <div class="text-center">
             <h1 class="mb-5 text-3xl font-bold leading-tight md:text-5xl md:leading-tight">
                 剪輯作品集
             </h1>
