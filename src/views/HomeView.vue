@@ -179,4 +179,7 @@ export default {
     transform: translateY(0);
   }
 }
+.special-cursor-area {
+  cursor: url("/special-cursor.cur"), auto;
+}
 </style>
