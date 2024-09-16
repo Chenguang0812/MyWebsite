@@ -3,7 +3,7 @@
   <div
     class="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 text-gray-800 font-sans"
   >
-    <!-- Hero Section -->
+    <!-- Hero -->
     <header class="relative h-screen flex items-center justify-center overflow-hidden">
       <div class="text-center z-10 px-4">
         <h1
@@ -41,7 +41,7 @@
       </div>
     </header>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about" class="py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-4xl font-bold text-center text-indigo-600 mb-12">關於我</h2>
@@ -62,7 +62,7 @@
       </div>
     </section>
 
-    <!-- Timeline Section -->
+    <!-- Timeline -->
     <section
       id="timeline"
       class="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Desktop Navbar (显示于大屏幕) -->
+    <!-- Desktop Navbar -->
     <nav
       v-if="!isMobile"
       class="fixed top-0 left-0 right-0 bg-gradient-to-r from-blue-600 to-indigo-600 z-50 transition-all duration-300 ease-in-out shadow-lg"
@@ -39,9 +39,9 @@
       </div>
     </nav>
 
-    <!-- Mobile Navbar and Sidebar -->
+    <!-- Phone Navbar and Sidebar -->
     <div v-if="isMobile">
-      <!-- Mobile Navbar -->
+      <!-- Phone Navbar -->
       <div
         class="fixed top-0 left-0 right-0 bg-gradient-to-r from-blue-600 to-indigo-600 shadow-lg z-50"
       >
@@ -101,7 +101,7 @@
         @click="toggleNavbar"
       ></div>
 
-      <!-- Mobile Sidebar -->
+      <!-- Phone Sidebar -->
       <div
         :class="{ 'translate-x-0': isOpen, 'translate-x-full': !isOpen }"
         class="fixed top-0 right-0 bottom-0 w-64 bg-white shadow-xl overflow-y-auto transition-transform duration-300 ease-in-out z-50 rounded-l-3xl"
@@ -119,9 +119,7 @@
       </div>
     </div>
 
-    <!-- Main content wrapper -->
     <div class="transition-margin duration-300 ease-in-out">
-      <!-- Your main content goes here -->
       <slot></slot>
     </div>
   </div>
