@@ -14,7 +14,7 @@
         <p
           class="text-xl sm:text-2xl mb-8 text-gray-600 animate-fade-in animation-delay-300"
         >
-          一個15歲少年，未來企業家的夢想
+          失敗的原因是你自己<br />沒有人叫你放棄，叫你放棄的是你自己
         </p>
         <button
           @click="scrollToAbout"
