@@ -27,7 +27,6 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-/* 对于文本输入区域，使用默认的文本光标 */
 input[type="text"],
 textarea {
   cursor: text;

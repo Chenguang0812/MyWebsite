@@ -5,27 +5,33 @@
   >
     <!-- Hero -->
     <header class="relative h-screen flex items-center justify-center overflow-hidden">
-      <div class="text-center z-10 px-4">
+      <!-- 內容區塊 -->
+      <div class="text-center z-10 px-6">
         <h1
-          class="text-5xl sm:text-7xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-500 animate-gradient-x"
+          class="text-5xl sm:text-7xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-gradient-x drop-shadow-lg"
         >
           晨光個人網站
         </h1>
         <p
-          class="text-xl sm:text-2xl mb-8 text-gray-600 animate-fade-in animation-delay-300"
+          class="text-lg sm:text-2xl mb-8 text-gray-700 animate-fade-in animation-delay-300 tracking-wide"
         >
           失敗的原因是你自己<br />沒有人叫你放棄，叫你放棄的是你自己
         </p>
         <button
           @click="scrollToAbout"
-          class="bg-indigo-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50 animate-fade-in animation-delay-600"
+          class="bg-indigo-600 text-white font-semibold py-3 px-10 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-110 hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50 animate-fade-in animation-delay-600"
         >
           了解更多
         </button>
       </div>
+
+      <!-- 背景效果 -->
       <div class="absolute inset-0 z-0">
         <div
-          class="absolute inset-0 bg-gradient-to-br from-indigo-300 via-purple-300 to-pink-300 opacity-30"
+          class="absolute inset-0 bg-gradient-to-br from-indigo-400 via-purple-300 to-pink-300 opacity-40"
+        ></div>
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-white to-transparent opacity-30"
         ></div>
         <svg
           class="absolute bottom-0 left-0 right-0"
@@ -35,7 +41,7 @@
           <path
             fill="#ffffff"
             fill-opacity="1"
-            d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,245.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
         </svg>
       </div>
@@ -100,44 +106,44 @@ export default {
         {
           title: "經歷",
           items: [
-            "【要吃什麼】CEO",
-            "Premiere 3年經驗",
-            "14歲踏入健身領域",
-            "15歲開始創業",
-            "15歲加入區塊鏈世界",
+            "外送平台 Founder / CEO",
+            "影片剪輯與後製（Premiere 3 年經驗）",
+            "13歲起專注於健身與運動科學研究",
+            "14歲創立個人事業",
+            "15歲研究區塊鏈技術與應用",
           ],
         },
         {
           title: "興趣",
-          items: ["剪輯後製", "街頭攝影", "加密貨幣", "區塊鏈", "健身"],
+          items: ["創業與建立商業策略", "影線剪輯", "區塊鏈技術", "街頭攝影", "健身"],
         },
         {
           title: "個人資料",
-          items: ["暱稱：晨光", "感情：單身", "職業：CEO、剪輯師", "地區：地球"],
+          items: ["暱稱：晨光", "感情狀態：單身", "職業：CEO、剪輯師", "地區：地球"],
         },
       ],
       introduction:
-        "我是15歲的休學生，目前擔任一款飲食APP的CEO，同時也是RC Studio的剪輯師。13歲時我立志成為一個成功的企業家，現在看來在一兩年內有機會實現這個目標。我對經濟學、剪輯、數學、政治和健身等領域都有濃厚興趣。我的人生規劃是在20歲時達到財富自由，專注於享受人生，追求個人成長、自我實現。",
+        "我是晨光，一名 15 歲的創業者與加密貨幣投資者，目前創立並擔任外送平台的創辦人兼執行長。我熱衷於經濟學、數學、新媒體、區塊鏈與投資，並以自我實現為人生核心，不斷突破自身極限，發揮最大潛能。我的選擇建立在利他主義之上 —— 透過創造價值優化市場環境，讓更多人受益。我致力於以實際行動解決問題，構建更高效、公平的體系。",
       timelineItems: [
         {
-          title: "國二加入RC Studio",
+          title: "13歲加入RC Studio",
           date: "December, 2022 - Present",
-          description: "對剪輯後製及各種社群媒體非常了解。",
+          description: "對剪輯後製及新媒體深入了解。",
         },
         {
-          title: "國二開始接觸健身",
+          title: "13歲開始接觸健身",
           date: "December, 2022 - Present",
-          description: "對於身體構造健身知識目前有一定的專業程度。",
+          description: "對於運動科學知識有一定的專業程度。",
         },
         {
-          title: "國三接觸區塊鏈",
+          title: "14歲接觸區塊鏈",
           date: "May, 2023 - Present",
-          description: "對於加密貨幣以及區塊鏈技術有著一定程度了解。",
+          description: "對於加密貨幣及區塊鏈技術有深入的了解。",
         },
         {
-          title: "國三開始開創飲食App",
+          title: "15歲開始開創外送App",
           date: "January, 2024 - Present",
-          description: "目前還在開創階段，只能說酷哦。",
+          description: "致力於打造外送三方共贏局面，打造良好外送環境。",
         },
       ],
     };
