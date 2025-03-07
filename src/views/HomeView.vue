@@ -19,7 +19,7 @@
         </p>
         <button
           @click="scrollToAbout"
-          class="bg-indigo-600 text-white font-semibold py-3 px-10 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-110 hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50 animate-fade-in animation-delay-600"
+          class="bg-indigo-600 text-white font-semibold py-3 px-10 rounded-full shadow-xl transition duration-300 ease-in-out transform hover:scale-110 hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50 animate-fade-in animation-delay-600"
         >
           了解更多
         </button>
@@ -41,7 +41,7 @@
           <path
             fill="#ffffff"
             fill-opacity="1"
-            d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,245.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,245.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,   1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
         </svg>
       </div>
@@ -115,7 +115,7 @@ export default {
         },
         {
           title: "興趣",
-          items: ["創業與建立商業策略", "影線剪輯", "區塊鏈技術", "街頭攝影", "健身"],
+          items: ["創業與建立商業模式", "影片剪輯", "區塊鏈技術", "街頭攝影", "健身"],
         },
         {
           title: "個人資料",
@@ -128,20 +128,20 @@ export default {
         {
           title: "13歲加入RC Studio",
           date: "December, 2022 - Present",
-          description: "對剪輯後製及新媒體深入了解。",
+          description: " 3年剪輯與後製經驗，能夠獨立製作高質影片。",
         },
         {
           title: "13歲開始接觸健身",
           date: "December, 2022 - Present",
-          description: "對於運動科學知識有一定的專業程度。",
+          description: "深入研究運動科學與健身理論，並應用於實際訓練。",
         },
         {
           title: "14歲接觸區塊鏈",
           date: "May, 2023 - Present",
-          description: "對於加密貨幣及區塊鏈技術有深入的了解。",
+          description: "專注於區塊鏈技術，研究DApp、區塊鏈經濟模型。",
         },
         {
-          title: "15歲開始開創外送App",
+          title: "15歲開始開創外送平台",
           date: "January, 2024 - Present",
           description: "致力於打造外送三方共贏局面，打造良好外送環境。",
         },
